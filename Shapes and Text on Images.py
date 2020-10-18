@@ -28,3 +28,17 @@ cv2.waitKey(0)
 cv2.rectangle(img, (300, 10), (200, 100), (232, 33, 122), 2)
 cv2.imshow("Rectangle on Image", img)
 cv2.waitKey(0)
+
+# Circle on Image
+
+# circle(image, center, radius, color, thickness)
+cv2.circle(img, (420, 40), 30, (0, 33, 122), 5)
+cv2.imshow("Circle on Image", img)
+cv2.waitKey(0)
+
+# Put text on Image
+
+# circle(image, center, radius, color, thickness)
+cv2.putText(img, "This is Text", (20, 400), cv2.FONT_HERSHEY_COMPLEX, 1, (200, 200, 200), 2)
+cv2.imshow("Text on Image", img)
+cv2.waitKey(0)
